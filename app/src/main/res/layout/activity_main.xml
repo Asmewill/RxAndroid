@@ -10,45 +10,92 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
     android:gravity="center">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="基本实现案例1" />
+            <Button
+                android:id="@+id/btn_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="基本实现案例2" />
 
-    <Button
-        android:id="@+id/btn_one"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="基本实现案例1" />
-    <Button
-        android:id="@+id/btn_two"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="基本实现案例2" />
+            <Button
+                android:id="@+id/btn_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="just操作符" />
+            <Button
+                android:id="@+id/btn_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="form操作符" />
 
-    <Button
-        android:id="@+id/btn_three"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="just操作符" />
-    <Button
-        android:id="@+id/btn_four"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="form操作符" />
+            <Button
+                android:id="@+id/btn_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action操作" />
 
-    <Button
-        android:id="@+id/btn_five"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Action操作" />
+            <Button
+                android:id="@+id/btn_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Map操作转换" />
 
-    <Button
-        android:id="@+id/btn_six"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Map操作转换" />
+            <Button
+                android:id="@+id/btn_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="线程调度器" />
 
-    <Button
-        android:id="@+id/btn_seven"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="线程调度器" />
+
+            <Button
+                android:id="@+id/btn_eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="floatmap操作符"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/btn_filter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Filter操作符"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/btn_distinct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="distinct操作符"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/btn_skip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="skip操作符"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/btn_take"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="take操作符"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
 
 </LinearLayout>
